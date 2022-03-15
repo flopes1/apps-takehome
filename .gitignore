@@ -130,3 +130,6 @@ dmypy.json
 
 # IntelliJ
 .idea/
+
+# Apple stuff
+.DS_Store
