@@ -5,9 +5,9 @@ Parts API takehome exercise for engineering candidates applying to the Apps team
 First, you'll need to get the app running in your local environment.
 1. Clone this repo.
 2. Navigate into the folder and create your python virtual environment using [pyenv](https://github.com/pyenv/pyenv#installation): 
-  1. `pyenv install 3.5.10`
-  2. `pyenv virtualenv 3.5.10 takehome-env`
-  3. `pyenv activate takehome-env` 
+    1. `pyenv install 3.5.10`
+    2. `pyenv virtualenv 3.5.10 takehome-env`
+    3. `pyenv activate takehome-env` 
 3. Install requirements: `pip install -r requirements.txt`
 4. Pre-populate the db: `sqlite3 db.sqlite3 < parts_create.sql`
 5. Run: `./manage.py runserver`
