@@ -6,4 +6,3 @@ class WidgetSeralizer(serializers.ModelSerializer):
     class Meta:
         model = Widget
         fields = "__all__"
-        
