@@ -15,7 +15,7 @@ First, you'll need to get the app running in your local environment.
 Note: our application currently runs 3.5.10 and django 1.11 so we'll use those versions 
 
 # Instructions
-Parts Unlimited has a problem - a certain endpoint is throwing errors in production. The application is Django, most of it in Django-Rest-Framework. 
+Parts Unlimited has a problem - a certain endpoint is throwing errors in production. The application is Django, most of it in Django-Rest-Framework. Please create a new Pull Request on this repo, containing the solutions to the following tasks.
 
 ## Task 1
 The team has determined the following view is not working as expected, and the bug has been assigned to you to fix.
