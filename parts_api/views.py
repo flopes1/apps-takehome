@@ -1,9 +1,9 @@
 from django.http import HttpResponse
 from django.db import connection
 from django.shortcuts import render
-import json
-import sqlite3
 from contextlib import closing
+
+import json
 
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
